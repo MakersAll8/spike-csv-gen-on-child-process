@@ -1,0 +1,20 @@
+{
+  "name": "test-csv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -e js,sql,json --ignore '*.test.js' src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.1.3",
+    "express": "^4.18.2",
+    "fast-csv": "^4.3.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
